@@ -1,0 +1,13 @@
+{
+  "canonical_state_sha256": "00594cb18bb15faf8a90085b8ee531911b1118f759f9e73d8dd12fb171a2b357",
+  "state_bytes_identical_to_source": true,
+  "files": {
+    "ACCEPTANCE.json": "6afc06ef522ca693e585590e5b5022cb683f240a3ce8588e53d65d4fbb154077",
+    "DATA_DICTIONARY.json": "4d17eced1bee5a9df3811eaabf638656af997346164c96405489466df4d12942",
+    "FINAL_ARRAY_AUDIT.json": "fabbe01fcaa49f7bcf063f2cbc60d627a805e8d3da7e8e0f3f7d430b1afdfd45",
+    "STATE.npz": "00594cb18bb15faf8a90085b8ee531911b1118f759f9e73d8dd12fb171a2b357",
+    "STATE_DEFINITION.json": "aff3764467d59618f98906289fd1ed7cb0d2139176e370e913cf5406591147c5",
+    "VALIDATION.json": "bf0c665f2f3acde26b667d050f05557ad1699072d136322339559a4e80b0061f"
+  },
+  "new_JK": 0
+}

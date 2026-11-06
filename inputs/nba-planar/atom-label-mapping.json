@@ -1,0 +1,555 @@
+{
+  "schema": "NBA_FORMAL_PROJECT_ATOM_MAPPING_v1",
+  "status": "CRITICAL_CUT_LABELS_VERIFIED_REQUEST_C14_ALIAS_CONFIRMED",
+  "scope": "Formal project mapping and declared NBA connectivity for the independent reconstructed geometry; not author historical-coordinate identification or full25 historical-label certification",
+  "geometry_file": "geometry.json",
+  "geometry_sha256": "5ec5b90fa4c81057c8ac82cade45a04cb66730659eb4685c017f4dded6b7c9eb",
+  "prior_candidate_sha256": "45c09e3bfe59b708357c2f92f39868b5304bf46eeb04d7b0e49618548fdf814e",
+  "source_contract_sha256": "0c32a69b1cb321ef9d516fa2e3ef16e9a2b2db997ceefc92577b0aa73a1ced61",
+  "book_source": {
+    "title": "Questioning Fundamental Principles of Organic Chemistry",
+    "local_book_sha256": "07aadf5e25967616c4076c8b732ebb17e9e179f31c6546b6eb06d46e96d4a85d",
+    "locators": [
+      {
+        "PDF_page_one_based": 38,
+        "printed_page": 57,
+        "locator": "Figure3-1 numbered heavy-atom skeleton"
+      },
+      {
+        "PDF_page_one_based": 40,
+        "printed_pages": [
+          60,
+          61
+        ],
+        "locator": "Table3-2 and section3.2.1, N12/C13/H14"
+      },
+      {
+        "PDF_page_one_based": 82,
+        "printed_pages": [
+          144,
+          145
+        ],
+        "locator": "Figure5-11 and section5.4.1: cut C1-N12 and C13-C15; four seed atoms"
+      }
+    ]
+  },
+  "request_alias_confirmation": {
+    "date_Asia_Shanghai": "2026-11-05",
+    "source": "Explicit user clarification in this task",
+    "confirmed_alias": "C14",
+    "canonical_book_label": "C15",
+    "project_index_zero_based": 8,
+    "confirmation_scope": "Same intended cutting/bonding carbon only; no geometry/AO/orbital change; not a new author scientific endorsement"
+  },
+  "canonical_numbering_policy": "Book numbering for C1/N12/C13/C15 and H14. User C14 stored as request alias of C15, not as a second atom or relabeling of H14.",
+  "cuts_project_indices_zero_based": [
+    [
+      0,
+      6
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "cuts_book_labels": [
+    [
+      "C1",
+      "N12"
+    ],
+    [
+      "C13",
+      "C15"
+    ]
+  ],
+  "declared_connectivity_scope": "Fixed NBA topology with project ring order; not independently restored full original bond graph",
+  "atoms": [
+    {
+      "project_index_zero_based": 0,
+      "project_index_one_based": 1,
+      "element": "C",
+      "fragment": "A",
+      "project_atom_id": "C1",
+      "book_label": "C1",
+      "book_label_status": "KEY_LABEL_VERIFIED_IN_BOOK_AND_PRIOR_CONTRACT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        1,
+        5,
+        6
+      ],
+      "coordinates_bohr": [
+        -2.7355556840334168,
+        0.22690438306816588,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 1,
+      "project_index_one_based": 2,
+      "element": "C",
+      "fragment": "A",
+      "project_atom_id": "C2",
+      "book_label": "C2",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        0,
+        2,
+        14
+      ],
+      "coordinates_bohr": [
+        -4.246768277170959,
+        2.412253091931425,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 2,
+      "project_index_one_based": 3,
+      "element": "C",
+      "fragment": "A",
+      "project_atom_id": "C3",
+      "book_label": "C3",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        1,
+        3,
+        15
+      ],
+      "coordinates_bohr": [
+        -6.864988953278265,
+        2.2168437314181983,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 3,
+      "project_index_one_based": 4,
+      "element": "C",
+      "fragment": "A",
+      "project_atom_id": "C4",
+      "book_label": "C4",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        2,
+        4,
+        16
+      ],
+      "coordinates_bohr": [
+        -8.035249046111337,
+        -0.14690914644586683,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 4,
+      "project_index_one_based": 5,
+      "element": "C",
+      "fragment": "A",
+      "project_atom_id": "C5",
+      "book_label": "C5",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        3,
+        5,
+        17
+      ],
+      "coordinates_bohr": [
+        -6.55701568153548,
+        -2.324490971739449,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 5,
+      "project_index_one_based": 6,
+      "element": "C",
+      "fragment": "A",
+      "project_atom_id": "C6",
+      "book_label": "C6",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        0,
+        4,
+        18
+      ],
+      "coordinates_bohr": [
+        -3.9358109602495155,
+        -2.13521304874908,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 6,
+      "project_index_one_based": 7,
+      "element": "N",
+      "fragment": "B",
+      "project_atom_id": "N12",
+      "book_label": "N12",
+      "book_label_status": "KEY_LABEL_VERIFIED_IN_BOOK_AND_PRIOR_CONTRACT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        0,
+        7
+      ],
+      "coordinates_bohr": [
+        -0.07245481933312425,
+        0.16362541369200717,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 7,
+      "project_index_one_based": 8,
+      "element": "C",
+      "fragment": "B",
+      "project_atom_id": "C13",
+      "book_label": "C13",
+      "book_label_status": "KEY_LABEL_VERIFIED_IN_BOOK_AND_PRIOR_CONTRACT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        6,
+        8,
+        19
+      ],
+      "coordinates_bohr": [
+        1.2805095725223663,
+        2.1614454912583954,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 8,
+      "project_index_one_based": 9,
+      "element": "C",
+      "fragment": "C",
+      "project_atom_id": "C15",
+      "book_label": "C15",
+      "book_label_status": "KEY_LABEL_VERIFIED_IN_BOOK_AND_PRIOR_CONTRACT",
+      "request_aliases": [
+        "C14"
+      ],
+      "declared_connected_project_indices": [
+        7,
+        9,
+        13
+      ],
+      "coordinates_bohr": [
+        4.051890189418314,
+        2.0727441774731665,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 9,
+      "project_index_one_based": 10,
+      "element": "C",
+      "fragment": "C",
+      "project_atom_id": "C16",
+      "book_label": "C16",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        8,
+        10,
+        20
+      ],
+      "coordinates_bohr": [
+        5.4264948487799645,
+        4.336150940593412,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 10,
+      "project_index_one_based": 11,
+      "element": "C",
+      "fragment": "C",
+      "project_atom_id": "C17",
+      "book_label": "C17",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        9,
+        11,
+        21
+      ],
+      "coordinates_bohr": [
+        8.056513176346016,
+        4.30745047263199,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 11,
+      "project_index_one_based": 12,
+      "element": "C",
+      "fragment": "C",
+      "project_atom_id": "C18",
+      "book_label": "C18",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        10,
+        12,
+        22
+      ],
+      "coordinates_bohr": [
+        9.342784112971152,
+        2.01115907243878,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 12,
+      "project_index_one_based": 13,
+      "element": "C",
+      "fragment": "C",
+      "project_atom_id": "C19",
+      "book_label": "C19",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        11,
+        13,
+        23
+      ],
+      "coordinates_bohr": [
+        7.988731936439315,
+        -0.25640931218704116,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 13,
+      "project_index_one_based": 14,
+      "element": "C",
+      "fragment": "C",
+      "project_atom_id": "C20",
+      "book_label": "C20",
+      "book_label_status": "DECLARED_TOPOLOGICAL_MAPPING_TO_FIGURE_3_1_HEAVY_RING_ORDER",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        8,
+        12,
+        24
+      ],
+      "coordinates_bohr": [
+        5.3672525225360905,
+        -0.2314737968462869,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 14,
+      "project_index_one_based": 15,
+      "element": "H",
+      "fragment": "A",
+      "project_atom_id": "H_at_project_1",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        1
+      ],
+      "coordinates_bohr": [
+        -3.393792961821799,
+        4.273146073217608,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 15,
+      "project_index_one_based": 16,
+      "element": "H",
+      "fragment": "A",
+      "project_atom_id": "H_at_project_2",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        2
+      ],
+      "coordinates_bohr": [
+        -8.004607631245044,
+        3.920332757207199,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 16,
+      "project_index_one_based": 17,
+      "element": "H",
+      "fragment": "A",
+      "project_atom_id": "H_at_project_3",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        3
+      ],
+      "coordinates_bohr": [
+        -10.079193294605513,
+        -0.2829095404283275,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 17,
+      "project_index_one_based": 18,
+      "element": "H",
+      "fragment": "A",
+      "project_atom_id": "H_at_project_4",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        4
+      ],
+      "coordinates_bohr": [
+        -7.4444195476756425,
+        -4.171286975239087,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 18,
+      "project_index_one_based": 19,
+      "element": "H",
+      "fragment": "A",
+      "project_atom_id": "H_at_project_5",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        5
+      ],
+      "coordinates_bohr": [
+        -2.749338005239688,
+        -3.803351372456948,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 19,
+      "project_index_one_based": 20,
+      "element": "H",
+      "fragment": "B",
+      "project_atom_id": "H14",
+      "book_label": "H14",
+      "book_label_status": "KEY_LABEL_VERIFIED_IN_BOOK_AND_PRIOR_CONTRACT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        7
+      ],
+      "coordinates_bohr": [
+        0.47626068264976684,
+        4.073929832799115,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 20,
+      "project_index_one_based": 21,
+      "element": "H",
+      "fragment": "C",
+      "project_atom_id": "H_at_project_9",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        9
+      ],
+      "coordinates_bohr": [
+        4.4225618962975854,
+        6.125188252519771,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 21,
+      "project_index_one_based": 22,
+      "element": "H",
+      "fragment": "C",
+      "project_atom_id": "H_at_project_10",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        10
+      ],
+      "coordinates_bohr": [
+        9.09953384662354,
+        6.0706874280776,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 22,
+      "project_index_one_based": 23,
+      "element": "H",
+      "fragment": "C",
+      "project_atom_id": "H_at_project_11",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        11
+      ],
+      "coordinates_bohr": [
+        11.39151322439526,
+        1.9825225504091528,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 23,
+      "project_index_one_based": 24,
+      "element": "H",
+      "fragment": "C",
+      "project_atom_id": "H_at_project_12",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        12
+      ],
+      "coordinates_bohr": [
+        8.991255449323265,
+        -2.043478970752512,
+        0.0
+      ]
+    },
+    {
+      "project_index_zero_based": 24,
+      "project_index_one_based": 25,
+      "element": "H",
+      "fragment": "C",
+      "project_atom_id": "H_at_project_13",
+      "book_label": null,
+      "book_label_status": "INDIVIDUAL_H_NUMBER_NOT_VERIFIED_USE_PROJECT_INDEX_AND_ATTACHMENT",
+      "request_aliases": [],
+      "declared_connected_project_indices": [
+        13
+      ],
+      "coordinates_bohr": [
+        4.285538676893291,
+        -1.9682321363514126,
+        0.0
+      ]
+    }
+  ],
+  "critical_labels_source_verified": true,
+  "full_original_25_atom_label_mapping_certified": false,
+  "peripheral_H_labels_unverified": 10,
+  "unknown_labels_affect_cut_identity": false,
+  "source_FUL_state_or_geometry_modified": false,
+  "new_JK": 0,
+  "new_integrals": 0,
+  "new_SCF": 0
+}

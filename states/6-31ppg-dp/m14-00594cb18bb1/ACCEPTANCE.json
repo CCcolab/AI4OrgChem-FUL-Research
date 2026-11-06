@@ -1,0 +1,12 @@
+{
+  "status": "SAME_FIXED_CANDIDATE_ALL_ORIGINAL_GATES_AND_AUDIT_PASS",
+  "source_success": true,
+  "fixed_candidate_terminal_validator_success": true,
+  "independent_saved_array_audit": "INDEPENDENT_SAVED_ARRAY_AUDIT_PASS",
+  "new_JK_charged": 3,
+  "all_four_frozen_successes_unchanged": true,
+  "new_SCF": 0,
+  "same_frozen_candidate_no_orbital_or_density_update": true,
+  "physical1RDM_success_not_required_or_claimed": true,
+  "full_R3_or_universal_basis_claim": false
+}

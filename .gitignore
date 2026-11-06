@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+scratch/
+*.writing
+
+tests/
+test/
+.pytest_cache/
+local-only/
+*.tmp

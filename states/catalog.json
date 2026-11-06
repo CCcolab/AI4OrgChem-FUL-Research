@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "publication_status": "CURRENT_RESEARCH_RESULTS",
+  "geometry_shared": true,
+  "states": [
+    {
+      "id": "sto3g",
+      "basis": "STO-3G",
+      "state_path": "states/sto-3g/ful3-5f147c00c694/STATE.npz",
+      "state_sha256": "5f147c00c6942a2509d1f944096dc6628d5e23f86c6a1416f143b57259153e80",
+      "validation_path": "states/sto-3g/ful3-5f147c00c694/VALIDATION.json",
+      "validation_sha256": "ea6060109b3c99b7808e3b34d11557f521cb8643c754e9ff168a848262c8baa0",
+      "AO_dimension": 81,
+      "electrons": 96,
+      "group_sizes": [
+        6,
+        2,
+        6,
+        28,
+        7,
+        28,
+        4
+      ],
+      "occupied_pairs": [
+        3,
+        1,
+        3,
+        17,
+        5,
+        17,
+        2
+      ],
+      "cut_dimension": 4,
+      "actual_empty_count": 33,
+      "C1_label": "原四方向C1（2占据/2空）",
+      "source_conditional_status": "PASS",
+      "publication_status": "CURRENT_RESEARCH_RESULTS",
+      "audit_arrays_path": "states/sto-3g/ful3-5f147c00c694/AUDIT_ARRAYS.npz",
+      "audit_arrays_sha256": "12c651deaf342c9e9663cb3591184411bfb250d8df3122352c6bcf736802ac41",
+      "identity_reference_path": "states/sto-3g/ful3-5f147c00c694/IDENTITY_REFERENCE.npz",
+      "identity_reference_sha256": "8705eb865050acd430f2581a71d54ba112612bca08cd127613d1b2b3d7065f25",
+      "construction_path": "states/sto-3g/ful3-5f147c00c694/CONSTRUCTION_IDENTITY.json",
+      "construction_sha256": "a7c130f7db3166bda518868d9fffb077df2fb8c56aa009ca40363ed0ceb37139"
+    },
+    {
+      "id": "6-31g-m7",
+      "basis": "6-31G",
+      "state_path": "states/6-31g/m7-0c8e6f53823f/STATE.npz",
+      "state_sha256": "0c8e6f53823fbd8a65a5730d8b29049fd5614facc14b05cdcf14197ada7131a6",
+      "validation_path": "states/6-31g/m7-0c8e6f53823f/VALIDATION.json",
+      "validation_sha256": "3de371fe48b5bee84a1f5e10ac608ff65a7708f889eeb13cb4ab33b82bd20dc4",
+      "AO_dimension": 148,
+      "electrons": 96,
+      "group_sizes": [
+        12,
+        4,
+        12,
+        50,
+        13,
+        50,
+        7
+      ],
+      "occupied_pairs": [
+        3,
+        1,
+        3,
+        17,
+        5,
+        17,
+        2
+      ],
+      "cut_dimension": 7,
+      "actual_empty_count": 100,
+      "C1_label": "推广C1*（M7：2占据/5空）",
+      "source_conditional_status": "PASS",
+      "publication_status": "CURRENT_RESEARCH_RESULTS",
+      "identity_reference_path": "states/6-31g/m7-0c8e6f53823f/IDENTITY_REFERENCE.npz",
+      "identity_reference_sha256": "7e78c9b4f53c8d7d6ef2dbcb6dea4fe19e1a1697c79550f8fde100273f28a9f0"
+    },
+    {
+      "id": "6-31g-d",
+      "basis": "6-31G(d)",
+      "state_path": "states/6-31g-d/m7-a8b6105e78f3/STATE.npz",
+      "state_sha256": "a8b6105e78f3b7d1d46caeb3758bf6ec745b6768a2837d86a3a1c8f789672694",
+      "validation_path": "states/6-31g-d/m7-a8b6105e78f3/VALIDATION.json",
+      "validation_sha256": "609d35c04c6c5baa66ead05a824aa1ccf04a4085658720ffabd71beb09bb6b0b",
+      "AO_dimension": 218,
+      "electrons": 96,
+      "group_sizes": [
+        24,
+        8,
+        24,
+        68,
+        19,
+        68,
+        7
+      ],
+      "occupied_pairs": [
+        3,
+        1,
+        3,
+        17,
+        5,
+        17,
+        2
+      ],
+      "cut_dimension": 7,
+      "actual_empty_count": 170,
+      "C1_label": "推广C1*（M7：2占据/5空；5D极化）",
+      "source_conditional_status": "PASS",
+      "publication_status": "CURRENT_RESEARCH_RESULTS"
+    },
+    {
+      "id": "6-31g-dp",
+      "basis": "6-31G(d,p)",
+      "state_path": "states/6-31g-dp/m7-2a8d02863e26/STATE.npz",
+      "state_sha256": "2a8d02863e26a9ec8246b1437dcee859829eda9de00079b26bec611504e045eb",
+      "validation_path": "states/6-31g-dp/m7-2a8d02863e26/VALIDATION.json",
+      "validation_sha256": "5147b38e2e286d92ff18d825bd118b6e2684f264068e184e57686270f65383c7",
+      "AO_dimension": 251,
+      "electrons": 96,
+      "group_sizes": [
+        29,
+        9,
+        29,
+        78,
+        21,
+        78,
+        7
+      ],
+      "occupied_pairs": [
+        3,
+        1,
+        3,
+        17,
+        5,
+        17,
+        2
+      ],
+      "cut_dimension": 7,
+      "actual_empty_count": 203,
+      "C1_label": "C1*",
+      "source_conditional_status": "PASS",
+      "acceptance_path": "states/6-31g-dp/m7-2a8d02863e26/ACCEPTANCE.json",
+      "publication_status": "CURRENT_RESEARCH_RESULTS"
+    },
+    {
+      "id": "6-31ppg-dp",
+      "basis": "6-31++G(d,p)",
+      "state_path": "states/6-31ppg-dp/m14-00594cb18bb1/STATE.npz",
+      "state_sha256": "00594cb18bb15faf8a90085b8ee531911b1118f759f9e73d8dd12fb171a2b357",
+      "validation_path": "states/6-31ppg-dp/m14-00594cb18bb1/VALIDATION.json",
+      "validation_sha256": "bf0c665f2f3acde26b667d050f05557ad1699072d136322339559a4e80b0061f",
+      "AO_dimension": 318,
+      "electrons": 96,
+      "group_sizes": [
+        35,
+        11,
+        35,
+        99,
+        25,
+        99,
+        14
+      ],
+      "occupied_pairs": [
+        3,
+        1,
+        3,
+        17,
+        5,
+        17,
+        2
+      ],
+      "cut_dimension": 14,
+      "actual_empty_count": 270,
+      "C1_label": "C1*",
+      "source_conditional_status": "PASS",
+      "acceptance_path": "states/6-31ppg-dp/m14-00594cb18bb1/ACCEPTANCE.json",
+      "publication_status": "CURRENT_RESEARCH_RESULTS"
+    }
+  ],
+  "metadata_policy": "Paths and SHA256 identify the current saved research records. Numerical state arrays and their scientific definitions are retained unchanged."
+}

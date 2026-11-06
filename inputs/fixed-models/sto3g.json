@@ -1,0 +1,28 @@
+{
+  "state_id": "sto3g",
+  "work_basis_reference": "states/sto-3g/ful3-5f147c00c694/STATE.npz:W_full",
+  "group_sizes": [
+    6,
+    2,
+    6,
+    28,
+    7,
+    28,
+    4
+  ],
+  "occupied_pairs": [
+    3,
+    1,
+    3,
+    17,
+    5,
+    17,
+    2
+  ],
+  "root_overlap_min": 0.5,
+  "density": "P=2 sum_g O_g O_g^T",
+  "Fock": "h+J[P]-K[P]/2",
+  "energy": "EN+Tr(Ph)+Tr(PJ)/2-Tr(PK)/4",
+  "same_final_candidate_required": true,
+  "new_source_SCF_executed_for_public_preparation": false
+}

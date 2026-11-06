@@ -1,0 +1,2 @@
+# Preserve canonical evidence bytes and SHA256 under Windows checkout.
+* -text

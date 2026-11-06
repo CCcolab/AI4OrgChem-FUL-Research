@@ -1,0 +1,14 @@
+{
+  "canonical_state_sha256": "2a8d02863e26a9ec8246b1437dcee859829eda9de00079b26bec611504e045eb",
+  "state_bytes_identical_to_source": true,
+  "files": {
+    "ACCEPTANCE.json": "b505a13877fef7df8fd7998861f1c574ab536eb6c6204dbce41c85c45afba8b8",
+    "DATA_DICTIONARY.json": "67984f52f758222382c61f3f3320f41630cef7ed1cd913dde856f584ca6d4407",
+    "FINAL_ARRAY_AUDIT.json": "888613bd38d722e31dd9ff88559b14785e98c25c14d7c066ebce142503e886e5",
+    "S_REPRESENTATION_BINDING.json": "d7bc5f8f6eaf92aba9ec98dc8d30aa4c7f286b7ef8b75e01e5957f419bbfdbb4",
+    "STATE.npz": "2a8d02863e26a9ec8246b1437dcee859829eda9de00079b26bec611504e045eb",
+    "STATE_DEFINITION.json": "1c74d9f2e2cf3e6e35a1ea8668b9d60d8e17c78a492fd2404b0c2c1fc6061299",
+    "VALIDATION.json": "5147b38e2e286d92ff18d825bd118b6e2684f264068e184e57686270f65383c7"
+  },
+  "new_JK": 0
+}

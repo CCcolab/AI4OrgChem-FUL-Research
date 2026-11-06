@@ -1,0 +1,11 @@
+{
+  "canonical_state_sha256": "0c8e6f53823fbd8a65a5730d8b29049fd5614facc14b05cdcf14197ada7131a6",
+  "state_bytes_identical_to_source": true,
+  "files": {
+    "IDENTITY_REFERENCE.npz": "7e78c9b4f53c8d7d6ef2dbcb6dea4fe19e1a1697c79550f8fde100273f28a9f0",
+    "STATE.npz": "0c8e6f53823fbd8a65a5730d8b29049fd5614facc14b05cdcf14197ada7131a6",
+    "STATE_DEFINITION.json": "05ac4986ffbcf16a05c3a9f447876ba84a8408098a7c3b0cb1694dc5b5b68bfa",
+    "VALIDATION.json": "3de371fe48b5bee84a1f5e10ac608ff65a7708f889eeb13cb4ab33b82bd20dc4"
+  },
+  "new_JK": 0
+}

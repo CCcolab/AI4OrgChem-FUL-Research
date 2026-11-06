@@ -1,0 +1,57 @@
+{
+  "id": "6-31ppg-dp",
+  "basis": "6-31++G(d,p)",
+  "representation": "spherical 5D; hydrogen p and stated diffuse functions",
+  "method": "RHF-form source-conditional FUL model",
+  "geometry": "shared independently reconstructed planar NBA",
+  "state_sha256": "00594cb18bb15faf8a90085b8ee531911b1118f759f9e73d8dd12fb171a2b357",
+  "AO_dimension": 318,
+  "electrons": 96,
+  "source_conditional_status": "PASS",
+  "group_order": [
+    "pi_A",
+    "pi_B",
+    "pi_C",
+    "sigma_A",
+    "sigma_B",
+    "sigma_C",
+    "cut"
+  ],
+  "group_sizes": [
+    35,
+    11,
+    35,
+    99,
+    25,
+    99,
+    14
+  ],
+  "occupied_pairs": [
+    3,
+    1,
+    3,
+    17,
+    5,
+    17,
+    2
+  ],
+  "cut_dimension": 14,
+  "cut_electrons": 4,
+  "cut_occupied_pairs": 2,
+  "cut_empty_count": 12,
+  "C1_label": "C1*",
+  "transfer_dimensions": [
+    3,
+    4,
+    3
+  ],
+  "actual_empty_count": 270,
+  "minimum_all_empty_Eh": 0.015045849159320947,
+  "minimum_cut_empty_Eh": 0.12714125878878568,
+  "energy_Eh": -553.3479471064703,
+  "SCF_cycles": 27,
+  "source_acceptance": "ACCEPTANCE.json",
+  "data_dictionary": "DATA_DICTIONARY.json",
+  "C1star_policy": "four preserved seeds plus transferred virtual directions; four electrons; two occupied pairs",
+  "scope": "registered source-conditional numerical FUL instance; physical interpretation in supplementary documentation"
+}

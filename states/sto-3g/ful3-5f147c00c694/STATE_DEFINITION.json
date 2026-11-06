@@ -1,0 +1,59 @@
+{
+  "id": "sto3g",
+  "basis": "STO-3G",
+  "representation": "registered real AO representation",
+  "state_sha256": "5f147c00c6942a2509d1f944096dc6628d5e23f86c6a1416f143b57259153e80",
+  "geometry": "same independently reconstructed planar NBA; not author historical coordinates",
+  "method": "RHF-form source-conditional FUL model",
+  "source_conditional_status": "PASS",
+  "group_order": [
+    "pi_A",
+    "pi_B",
+    "pi_C",
+    "sigma_A",
+    "sigma_B",
+    "sigma_C",
+    "cut"
+  ],
+  "group_sizes": [
+    6,
+    2,
+    6,
+    28,
+    7,
+    28,
+    4
+  ],
+  "occupied_pairs": [
+    3,
+    1,
+    3,
+    17,
+    5,
+    17,
+    2
+  ],
+  "C1_label": "原四方向C1（2占据/2空）",
+  "cut_dimension": 4,
+  "cut_electrons": 4,
+  "cut_occupied_pairs": 2,
+  "cut_empty_count": 2,
+  "actual_empty_count": 33,
+  "minimum_all_empty_Eh": 0.24200919407623755,
+  "minimum_cut_empty_Eh": 0.5966749628767913,
+  "energy_Eh": -545.8894961637747,
+  "construction": "独立平面几何从头重建的源条件四种子FUL-3",
+  "transfer_dimensions": [
+    0,
+    0,
+    0
+  ],
+  "coefficients": "C_AO and actual_occupied_columns retain original column identities; no global energy refill",
+  "mapped_energy_field": "candidate_mapped_eigenvalues",
+  "fresh_empty_spectrum": "fresh_virtual_eigenvalues with group IDs",
+  "C1_occupation_imposed": true,
+  "physical_determinant_diagnosis_separate": true,
+  "universal_basis_proof_claimed": false,
+  "historical_Kost_exact_reproduction_claimed": false,
+  "reproduction": "Public verifier tests saved-array arithmetic only; new source SCF and from-geometry reconstruction are separate capabilities"
+}
