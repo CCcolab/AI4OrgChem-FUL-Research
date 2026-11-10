@@ -38,6 +38,7 @@
 
 - **下载与使用**：[轨道工作簿与数值包下载](downloads/README.md)、[轨道与工作簿使用说明](docs/author-review-guide.zh-CN.md)。
 - **模型与方法**：[FUL定义与轨道构造](docs/source-ful-definition.zh-CN.md)、[源条件密度与能量的物理解释](docs/supplementary/physical-density-diagnostics.zh-CN.md)。
+- [6-31G(d) 的 FUL/PDSI 配对能差与 Kost M7 筛查](docs/supplementary/6-31g-d-m7-pair-and-kost.zh-CN.md)。
 - **数据与复核**：[数值复核与原始数据](docs/reproducibility.zh-CN.md)。
 
 本仓库由CCcolab维护。研究来源及使用范围见[引用与使用说明](docs/references.zh-CN.md)。
